@@ -11,6 +11,7 @@ if has("nvim")
   Plug 'antoinemadec/coc-fzf'
   Plug 'itchyny/lightline.vim'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'ryanoasis/vim-devicons'
 endif
  
 call plug#end()

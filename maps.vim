@@ -13,6 +13,8 @@ nmap tc :tabclose
 " Split window
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
+nmap <S-Tab> :tabprev<Return>
+nmap <Tab> :tabnext<Return>
 
 " Resize window
 nmap <C-w><left> <C-w><
