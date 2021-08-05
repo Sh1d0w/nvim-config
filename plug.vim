@@ -13,6 +13,7 @@ if has("nvim")
   Plug 'ryanoasis/vim-devicons'
   Plug 'preservim/nerdcommenter'
   Plug 'voldikss/vim-floaterm'
+  Plug 'itchyny/vim-gitbranch'
 endif
  
 call plug#end()
