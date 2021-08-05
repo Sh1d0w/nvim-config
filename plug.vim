@@ -12,6 +12,7 @@ if has("nvim")
   Plug 'jiangmiao/auto-pairs'
   Plug 'ryanoasis/vim-devicons'
   Plug 'preservim/nerdcommenter'
+  Plug 'voldikss/vim-floaterm'
 endif
  
 call plug#end()
@@ -20,9 +21,17 @@ call plug#end()
 " -------------------------------------------------------
 
 " NerdCommenter
+" #######################################################
 
 " Align line-wise comment delimiters flush left instead of following code indentation
 let g:NERDDefaultAlign = 'left'
 
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
+
+" Vim Floaterm
+" #######################################################
+
+let g:floaterm_keymap_toggle = '<Leader>ft'
+
+let g:floaterm_title = 'Sh1d0w Term: $1/$2'
