@@ -1,5 +1,7 @@
 runtime ./plug.vim
 
+let loaded_netrwPlugin = 1
+
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 

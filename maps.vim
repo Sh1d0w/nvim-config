@@ -2,6 +2,12 @@
 
 nnoremap <leader>b :CocCommand explorer<CR>
 
+" Hardtime
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 " Select all
 nmap <C-a> gg<S-v>G
 
